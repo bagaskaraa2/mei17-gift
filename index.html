@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Gift</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <audio id="bg-music" src="music.mp3" autoplay loop></audio>
+  <div class="slide active" id="slide1">
+    <p>helloww...<br/>mei 17th is your birthday right?</p>
+    <button onclick="nextSlide()">Lanjut →</button>
+  </div>
+  <div class="slide" id="slide2">
+    <p>happy level up day!!!<br/>semoga wishlist kamu di tahun ini tercapai yaa, dilancarkan semuanyaa...</p>
+    <button onclick="nextSlide()">Lanjut →</button>
+  </div>
+  <div class="slide" id="slide3">
+    <p>hari ini bukan cuma soal nambah umur,<br/>
+       tapi soal gimana kamu udah tumbuh sejauh ini<br/>
+       jadi versi kamu yang lebih dewasa, lebih bijak, dan lebih tenang.</p>
+    <button onclick="nextSlide()">Lanjut →</button>
+  </div>
+  <div class="slide" id="slide4">
+    <p>That's a new chapter for you,<br/>
+       be the happiest version of yourself,<br/>
+       take care of your health,<br/>
+       and love who you are.<br/>
+       I'll be happy if you're doing well.</p>
+    <button onclick="restartSlides()">Selesai</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
